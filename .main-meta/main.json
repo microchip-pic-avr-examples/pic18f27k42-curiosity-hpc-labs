@@ -2,29 +2,29 @@
     "metaDataVersion": "1.0.0",
     "category": "com.microchip.ide.project",
     "content": {
-        "metaDataVersion": "1.1.0",
-        "name": "com.microchip.mcu8.mplabx.project.",
-        "version": " ",
-        "displayName": "  ",
-        "projectName": "",
-        "shortDescription": "",
+        "metaDataVersion": "1.3.0",
+        "name": "com.microchip.mcu8.mplabx.project.pic18f27k42",
+        "version": "2.0.0",
+        "displayName": "PIC18F27K42 Curiosity HPC Labs",
+        "projectName": "pic18f27k42-curiosity-hpc-labs",
+        "shortDescription": "Example for Curiosity HPC development board with PIC18F27K42",
         "ide": {
-            "name": "",
-            "semverRange": ""
+            "name": "MPLAB X",
+            "semverRange": ">=2.15"
         },
         "compiler": [
 			{
-				"name": "",
-				"semverRange": ""
+				"name": "XC8",
+				"semverRange": "^2.00.00"
 			}
 		],
         "dfp": {
-            "name": "",
-            "semverRange": ""
+            "name": "PIC18F-K_DFP",
+            "semverRange": "^1.2.72"
         },
         "configurator": {
-            "name": "",
-            "semverRange": ""
+            "name": "MCC",
+            "semverRange": ">=3.75"
         },
         "device": {
             "metaDataVersion": "1.0.0",
@@ -32,27 +32,13 @@
             "content": {
                 "metaDataVersion": "1.0.0",
                 "category": "com.microchip.device",
-                "name": "",
+                "name": "PIC18F27K42",
                 "versionRange": "*"
             }
         },
-        "author": "",
-        "subcategories": [
-            "",
-            [
-               "Peripherals", ""
-            ],
-            [
-               "Peripherals", ""
-            ]            			
-        ],
-        "peripherals": [
-            "",""
-        ],
-        "keywords": [
-            "",
-            ""			
-        ],
+        "author": "Microchip",
+        "peripherals": ["ADCC","UART","EEPROM","PWM","GPIO","WWDT"],
+        "keywords": ["Getting Started", "Melody", "Curiosity"],
 		"additionalData": {
 			"longDescription": {
 				"metaDataVersion": "1.0.0",
