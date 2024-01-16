@@ -3,7 +3,7 @@
     "category": "com.microchip.ide.project",
     "content": {
         "metaDataVersion": "1.3.0",
-        "name": "com.microchip.mcu8.mplabx.project.pic18f27k42",
+        "name": "com.microchip.mcu8.mplabx.project.pic18f27k42-curiosity-hpc-labs",
         "version": "2.0.0",
         "displayName": "PIC18F27K42 Curiosity HPC Labs",
         "projectName": "pic18f27k42-curiosity-hpc-labs",
