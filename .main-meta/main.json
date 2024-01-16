@@ -10,12 +10,12 @@
         "shortDescription": "Example for Curiosity HPC development board with PIC18F27K42",
         "ide": {
             "name": "MPLAB X",
-            "semverRange": ">=2.15.00"
+            "semverRange": ">=2.15.0"
         },
         "compiler": [
 			{
 				"name": "XC8",
-				"semverRange": "^2.00.00"
+				"semverRange": "^2.0.0"
 			}
 		],
         "dfp": {
@@ -24,7 +24,7 @@
         },
         "configurator": {
             "name": "MCC",
-            "semverRange": ">=3.75.00"
+            "semverRange": ">=3.75.0"
         },
         "device": {
             "metaDataVersion": "1.0.0",
